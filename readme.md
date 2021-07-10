@@ -1,7 +1,8 @@
-# README
-A helper class to seed databases from .csv files
+# CSV Database Seeder
+A helper class to seed databases from .csv files in Laravel 8 applications.
 ## Dependencies
-[Parsecsv/php-parscsv](https://github.com/parsecsv/parsecsv-for-php)
+- [Laravel 8](https://laravel.com/)
+- [Parsecsv/php-parscsv](https://github.com/parsecsv/parsecsv-for-php)
 ## Usage
 - Place .csv file into *storage/app*
 - Copy *CsvSeeder.php* to *database/seeders*
