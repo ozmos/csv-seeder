@@ -13,6 +13,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(CsvSeeder::class, false, ['table' => 'exercizes']);
+        $this->call(CsvSeeder::class, false, ['table' => 'tablename']);
     }
 }
